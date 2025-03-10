@@ -1,0 +1,13 @@
+# The main pipeline for databricks_development_dabs
+resources:
+  pipelines:
+    databricks_development_dabs_pipeline:
+      name: databricks_development_dabs_pipeline
+      catalog: workspace
+      schema: databricks_development_dabs_${bundle.target}
+      libraries:
+        - notebook:
+            path: ../src/dlt_pipeline.ipynb
+
+      configuration:
+        bundle.sourcePath: ${workspace.file_path}/src

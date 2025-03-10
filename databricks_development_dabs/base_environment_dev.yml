@@ -1,0 +1,3 @@
+client: '1'
+dependencies:
+  - -r "requirements-dev.txt"
