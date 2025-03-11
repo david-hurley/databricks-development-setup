@@ -13,6 +13,9 @@ pytest
 setuptools
 wheel
 
+## Random python stuff
+dice
+
 ## databricks-connect can be used to run parts of this project locally.
 ## See https://docs.databricks.com/dev-tools/databricks-connect.html.
 ##
